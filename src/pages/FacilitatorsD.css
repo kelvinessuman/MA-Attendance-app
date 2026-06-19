@@ -1,0 +1,187 @@
+/* LAYOUT */
+.dashboard-layout {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 300px;
+  background-color: #153D70;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #BA8F4A;
+  margin-bottom: 20px;
+}
+
+.course-item {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #BA8F4A;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.course-item:hover {
+  background-color: #BA8F4A;
+  color: #153D70;
+}
+
+.course-item.active {
+  background-color: #BA8F4A;
+  color: #153D70;
+  font-weight: bold;
+}
+
+/* MAIN AREA */
+.main {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #BA8F4A;
+}
+
+.header h1 {
+  color: #153D70;
+}
+
+/* LOGOUT */
+.logout-btn {
+  background-color: #153D70;
+  color: #BA8F4A;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #BA8F4A;
+  color: #153D70;
+}
+
+/* CONTENT */
+.content {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  flex: 1;
+  border: 2px solid #BA8F4A;
+  padding: 20px;
+  border-radius: 10px;
+  color: #153D70;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #153D70;
+  color: #BA8F4A;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #BA8F4A;
+  color: #153D70;
+}
+.add-course {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.add-course input {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #BA8F4A;
+  border-radius: 6px;
+  outline: none;
+}
+
+.add-course button {
+  padding: 8px 10px;
+  border: none;
+  background-color: #BA8F4A;
+  color: #153D70;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-course button:hover {
+  background-color: white;
+  color: #153D70;
+}
+
+.course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* course text clickable */
+.course-item span {
+  cursor: pointer;
+  flex: 1;
+}
+
+/* header button group */
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* delete toggle button */
+.delete-toggle {
+  background-color: #BA8F4A;
+  color: #f1f4f7;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-toggle:hover {
+  background-color: white;
+}
+
+/* delete button in sidebar */
+.delete-btn {
+  background-color: #BA8F4A;
+  color: #fdfeff;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-btn:hover {
+  background-color: white;
+}
